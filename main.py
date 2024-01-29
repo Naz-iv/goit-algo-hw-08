@@ -16,7 +16,7 @@ def cable_connection_costs(cables):
 
     return costs
 
-cables = [1, 3, 5, 7, 1]
+cables = [1, 3, 5, 9, 3, 4, 7, 1]
 result = cable_connection_costs(cables)
 
 print(f"Порядок з'єднання:\n", "->".join([str(order) for order in result]))
